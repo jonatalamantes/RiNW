@@ -1,0 +1,18 @@
+/// Instrucciones de Compilado ///
+/**
+ *
+    mkdir obj obj/Release/ obj/Release/src
+    g++ -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -Wall -O2 -Iinclude -c ./main.cpp -o obj/Release/main.o
+    g++ -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -Wall -O2 -Iinclude -c ./src/ClienteHTTP.cpp -o obj/Release/src/ClienteHTTP.o
+    g++ -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -Wall -O2 -Iinclude -c ./src/Fuente.cpp -o obj/Release/src/Fuente.o
+    g++ -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -Wall -O2 -Iinclude -c ./src/FuncionesPantalla.cpp -o obj/Release/src/FuncionesPantalla.o
+    g++ -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -Wall -O2 -Iinclude -c ./src/ObjectDOM.cpp -o obj/Release/src/ObjectDOM.o
+    g++ -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -Wall -O2 -Iinclude -c ./src/PantallaInicio.cpp -o obj/Release/src/PantallaInicio.o
+    g++ -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -Wall -O2 -Iinclude -c ./src/Principal.cpp -o obj/Release/src/Principal.o
+    g++ -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -Wall -O2 -Iinclude -c ./src/Scroll.cpp -o obj/Release/src/Scroll.o
+    g++ -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -Wall -O2 -Iinclude -c ./src/stringConvert.cpp -o obj/Release/src/stringConvert.o
+    g++ -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -Wall -O2 -Iinclude -c ./src/XMLEstructura.cpp -o obj/Release/src/XMLEstructura.o
+
+    g++  -o NavegadorWeb obj/Release/main.o obj/Release/src/ClienteHTTP.o obj/Release/src/Fuente.o obj/Release/src/FuncionesPantalla.o obj/Release/src/ObjectDOM.o obj/Release/src/PantallaInicio.o obj/Release/src/Principal.o obj/Release/src/Scroll.o obj/Release/src/stringConvert.o obj/Release/src/XMLEstructura.o  -L/usr/lib/i386-linux-gnu -lSDL -s -lSDL -lSDL_ttf -lSDL_image -L/usr/lib -lssl -lcrypto -lpthread  
+ *
+**/
