@@ -9,7 +9,7 @@ Se ofrece una versión ya compilada de una máquina de Linux Lubuntu.
 Las instrucciones de compilado manual estan en el archivo llamado "pathfile.dat" es importante que no borre el archivo ya que es importante para el programa.
 
 #Capturas
-![ScreenShot](https://raw.github.com/jonatalamantes/RiNW/master/Capturas/Captura1)
-![ScreenShot](https://raw.github.com/jonatalamantes/RiNW/master/Capturas/Captura2)
-![ScreenShot](https://raw.github.com/jonatalamantes/RiNW/master/Capturas/Captura3)
-![ScreenShot](https://raw.github.com/jonatalamantes/RiNW/master/Capturas/Captura4)
+![Settings Window](https://raw.github.com/jonatalamantes/RiNW/master/Capturas/Captura1.png)
+![Settings Window](https://raw.github.com/jonatalamantes/RiNW/master/Capturas/Captura2.png)
+![Settings Window](https://raw.github.com/jonatalamantes/RiNW/master/Capturas/Captura3.png)
+![Settings Window](https://raw.github.com/jonatalamantes/RiNW/master/Capturas/Captura4.png)
